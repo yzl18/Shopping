@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>
+
+        欢迎您: <span th:text="${user.friend.name}"></span><br>
+
+        <span th:text="${#dates.format(#dates.createNow(),'yyyy-MM-dd hh:mm:ss')}"></span>
+
+    </h1>
+    <span th:text="'<font color=\'red\'>hello</font>'"></span><br>
+    <span th:utext="'<font color=\'red\'>hello</font>'"></span><br>
+    <h1>
+        <span th:text="100 * 200 + 100 > 0"></span>
+    </h1>
+    <hr>
+
+    <ul>
+        <li th:each="sudent : ${list}">
+            <span th:text="${sudent.name}"></span>:
+            <span th:text="${sudent.age}"></span>
+        </li>
+    </ul>
+
+    <!--内联模板-->
+    <script th:inline="javascript">
+        const list=/*[[${list}]]*/ [];
+        console.log(list.length);
+
+        for (var i in list) {
+            console.log(list[i]);
+        }
+    </script>
+</body>
+</html>

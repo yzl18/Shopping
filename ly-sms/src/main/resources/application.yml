@@ -1,0 +1,19 @@
+server:
+  port: 8010
+spring:
+  application:
+    name: sms-service
+  rabbitmq:
+    host: 192.168.23.129
+    username: leyou
+    password: leyou
+    virtual-host: /leyou
+  redis:
+    host: 192.168.23.129
+    timeout: 12000ms
+ly:
+  sms:
+    accessKeyId: LTAI5tFLauJUJiVsNxJRvtBD
+    accessKeySecret: 4qDtlvYrCYSbEa29CbrWvwxvuphMY0
+    signName: 网站开发学习 # 签名名称
+    verifyCodeTemplate: SMS_223564769 # 模板CODE
