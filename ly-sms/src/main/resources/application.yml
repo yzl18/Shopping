@@ -16,4 +16,4 @@ ly:
     accessKeyId: xxxxx
     accessKeySecret:xxxx
     signName: 网站开发学习 # 签名名称
-    verifyCodeTemplate: SMS_223564769 # 模板CODE
+    verifyCodeTemplate: xxxx # 模板CODE
