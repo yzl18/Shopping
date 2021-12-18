@@ -26,9 +26,9 @@ public class MailUtils {
     private static final long SMS_MIN_INTERVAL_MILLIS= 60000;
 
 //    private static final String USER = "yangzelin_18@163.com"; // 发件人称号，同邮箱地址
-//    private static final String PASSWORD = "ZHQNWXQPKXWUPXFA"; // 如果是qq邮箱(163网易邮箱)可以使户端授权码
+//    private static final String PASSWORD = ""; // 如果是qq邮箱(163网易邮箱)可以使户端授权码
     private static final String USER = "1289136644@qq.com";
-    private static final String PASSWORD = "ynyitcrjdpplfjif";
+    private static final String PASSWORD = "";
 
     /**
      *
