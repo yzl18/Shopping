@@ -13,7 +13,7 @@ spring:
     timeout: 12000ms
 ly:
   sms:
-    accessKeyId: LTAI5tFLauJUJiVsNxJRvtBD
-    accessKeySecret: 4qDtlvYrCYSbEa29CbrWvwxvuphMY0
+    accessKeyId: xxxxx
+    accessKeySecret:xxxx
     signName: 网站开发学习 # 签名名称
     verifyCodeTemplate: SMS_223564769 # 模板CODE
