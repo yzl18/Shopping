@@ -6,14 +6,14 @@ spring:
   data:
     elasticsearch:
       cluster-name: elasticsearch
-      cluster-nodes: 192.168.23.129:9300
+      cluster-nodes: XXX
   jackson:
     default-property-inclusion: non_null  # 排除返回客户端空的json数据，使其不显示
   rabbitmq:
-      host: 192.168.23.129
-      username: leyou
-      password: leyou
-      virtual-host: /leyou
+      host: XXX
+      username: XXX
+      password: XXX
+      virtual-host: XXX
 eureka:
   client:
     service-url:
