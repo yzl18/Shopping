@@ -4,14 +4,14 @@ spring:
   application:
     name: order-service
   datasource:
-      url: jdbc:mysql://localhost:3306/leyou
-      username: root
-      password: root
+      url: jdbc:mysql://XXX/XXX
+      username: XXX
+      password: XXX
       driver-class-name: com.mysql.jdbc.Driver
   jackson:
     default-property-inclusion: non_null
   redis:
-      host: 192.168.23.129
+      host: XXX
       timeout: 12000ms
 eureka:
   client:
@@ -30,8 +30,8 @@ ly:
     workerId: 1
     dataCenterId: 1
   pay:
-      appId: wx8397f8696b538317
-      mchId: 1473426802
-      key: T6m9iK73b0kn9g5v426MKfHQH7X8rKwb
+      appId: XXX
+      mchId: XXX
+      key: XXX
       connectTimeoutMs: 5000
       readTimeoutMs: 10000
