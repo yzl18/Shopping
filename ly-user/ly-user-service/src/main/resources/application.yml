@@ -4,17 +4,17 @@ spring:
   application:
     name: user-service
   datasource:
-    url: jdbc:mysql://localhost:3306/leyou
-    username: root
-    password: root
+    url: XXX
+    username: XXX
+    password: XXX
     driver-class-name: com.mysql.jdbc.Driver
   rabbitmq:
-    host: 192.168.23.129
-    username: leyou
-    password: leyou
-    virtual-host: /leyou
+    host: XXX
+    username: XXX
+    password: XXX
+    virtual-host: XXX
   redis:
-    host: 192.168.23.129
+    host: XXX
 eureka:
   client:
     service-url:
