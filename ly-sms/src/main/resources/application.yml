@@ -4,12 +4,12 @@ spring:
   application:
     name: sms-service
   rabbitmq:
-    host: 192.168.23.129
-    username: leyou
-    password: leyou
-    virtual-host: /leyou
+    host: XXXXX
+    username: XXX
+    password: XXX
+    virtual-host: XXX
   redis:
-    host: 192.168.23.129
+    host: XXXX
     timeout: 12000ms
 ly:
   sms:
